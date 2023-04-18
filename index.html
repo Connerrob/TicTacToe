@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/97416dc1b1.js" crossorigin="anonymous"></script>
+    <title>Tic-Tac-Toe</title>
+    
+</head> 
+<body>
+  <div class="container">
+    <h1>Tic-Tac-Toe game</h1>
+    <h1 id="turnDisplay">Current Player: X </h1>
+    <!--
+      Nav menu if needed in future
+      <div id="nav">
+      <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Play</a></li>
+    
+      </ul>
+    </div>-->
+    </aside>
+    <table width="60%" align="center">
+        <tr>
+          <td height="60" id="blackCell"><span onclick="doClick(event)" id="cell00">&nbsp;</span></td>
+          <td><span onclick="doClick(event)" id="cell01">&nbsp;</span></td>
+          <td id="blackCell"><span onclick="doClick(event)" id="cell02">&nbsp;</span></td>
+        </tr>
+        <tr>
+          <td height="60"><span onclick="doClick(event)" id="cell10">&nbsp;</span></td>
+          <td id="blackCell"><span onclick="doClick(event)" id="cell11">&nbsp;</span></td>
+          <td><span onclick="doClick(event)" id="cell12">&nbsp;</span></td>
+        </tr>
+        <tr>
+          <td height="60" id="blackCell"><span onclick="doClick(event)" id="cell20">&nbsp;</span></td>
+          <td><span onclick="doClick(event)" id="cell21">&nbsp;</span></td>
+          <td id="blackCell"><span onclick="doClick(event)" id="cell22">&nbsp;</span></td>
+        </tr>
+      </table>
+      <p><input type="button" id="resetButton" value = "Reset game" onclick = "location.reload()" /></p>
+      </div>
+    <script src="TicTacToe.js"></script>
+</body>
+</html>
