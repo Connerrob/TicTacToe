@@ -52,7 +52,10 @@ h1 {
     text-align: center;
 }
 table {
-    border: 1px solid linear-gradient(rgb(47,150,163), rgb(48, 62, 143));;
+    border: 1px solid linear-gradient(rgb(47,150,163), rgb(48, 62, 143));
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
     height: 65%;
 }
 td {
