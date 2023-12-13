@@ -86,4 +86,21 @@ td:hover {
     background: linear-gradient(to bottom, #333, #fff);
     cursor: pointer;
   }
-  
+  @media (max-width: 768px) {
+  #nav ul li {
+    padding: 10px;
+  }
+  table {
+    width: 75%;
+    height: 75%;
+  }
+
+  td {
+    width: 20px; 
+    height: 1px; 
+  }
+
+  #resetButton {
+    padding: 10px 20px;
+  }
+}
