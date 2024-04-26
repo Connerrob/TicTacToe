@@ -54,7 +54,7 @@ function doClick(event) {
 
   // If playing in single-player mode, let the AI make a move
   if (singlePlayerMode && gamePlay && currentPlayer === "O") {
-    setTimeout(makeAIMove, 500); // Add a delay for better user experience
+    setTimeout(makeAIMove, 500); // Add a delay
   }
 }
 function makeAIMove() {
